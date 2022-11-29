@@ -52,9 +52,12 @@ export default function Home({ donations }: { donations: Array<Record> }) {
         <div className="bg-gradient-to-bl from-indigo-400 via-blue-500 to-purple-600 p-8 w-[80%] mt-10 md:max-w-md rounded-xl">
           <div>
             <h1 className="text-white  font-bold py-2 px-2 rounded-xl mb-5">
-              <div className="text-6xl -mb-2">BUY ME</div>
+              <div className="md:text-6xl text-4xl -mb-2">BUY ME</div>
               {error && <div>{error}</div>}
-              <div className="text-6xl">A COFFEE</div>
+              <div className="md:text-6xl text-4xl">A COFFEE</div>
+              <p className="text-white font-normal w-32 flex rounded-full border items-center justify-center">
+                by alwaysjad
+              </p>
             </h1>
             <div className="flex md:justify-start justify-center items-center">
               {" "}
