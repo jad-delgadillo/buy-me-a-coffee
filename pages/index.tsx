@@ -136,7 +136,7 @@ export default function Home({ donations }: { donations: Array<Record> }) {
             </span>
           </button> */}
         </div>
-        <div className="flex flex-col p-10 max-w-xs m-5 rounded-xl bg-slate-100">
+        <div className="flex flex-col p-10 max-w-xs m-5 rounded-xl bg-slate-100 hidden">
           <h1 className="font-medium mb-2 bg-indigo-500 rounded-2xl text-white p-2">
             Previous Supporters 🚀
           </h1>
